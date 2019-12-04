@@ -1,5 +1,5 @@
 {
-    "productName": "todo-app",
+    "productName": "desktop-app-skeleton",
     "directories": {
         "output": "app-builds"
     },

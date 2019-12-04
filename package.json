@@ -1,12 +1,12 @@
 {
-    "name": "angular-electron-typeorm-starter",
+    "name": "desktop-app-skeleton",
     "version": "0.0.0",
     "main": "main.js",
     "description": "Angular 6(+) and Electron (Typescript + SCSS + Hot Reload) for creating cross platform applications.",
-    "homepage": "https://github.com/CubikNeRubik/angular-electron-typeorm-starter",
+    "homepage": "https://github.com/chingalo/desktop-app-skeleton",
     "author": {
-        "name": "Vlad Haidei",
-        "email": "vlad.gaidei@gmail.com"
+        "name": "Joseph Chingalo",
+        "email": "profschingalo@gmail.com"
     },
     "keywords": [
         "angular",
