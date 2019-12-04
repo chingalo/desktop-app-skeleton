@@ -28,7 +28,7 @@
         "target": ["dmg"]
     },
     "linux": {
-        "icon": "dist/assets/icons/favicon.icns",
+        "icon": "dist/assets/icons",
         "target": ["AppImage", "deb"],
         "maintainer": "Joseph Chingalo",
         "vendor": "Joseph Chingalo",
