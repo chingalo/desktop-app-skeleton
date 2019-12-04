@@ -1,5 +1,5 @@
 {
-    "productName": "desktop-app-skeleton",
+    "productName": "todo-app",
     "directories": {
         "output": "app-builds"
     },
@@ -21,14 +21,18 @@
     ],
     "win": {
         "icon": "dist/assets/icons",
-        "target": ["portable"]
+        "target": ["portable", "nsis"]
     },
     "mac": {
-        "icon": "dist/assets/icons",
+        "icon": "dist/assets/icons/favicon.png",
         "target": ["dmg"]
     },
     "linux": {
-        "icon": "dist/assets/icons",
-        "target": ["AppImage"]
+        "icon": "dist/assets/icons/favicon.icns",
+        "target": ["AppImage", "deb"],
+        "maintainer": "Joseph Chingalo",
+        "vendor": "Joseph Chingalo",
+        "synopsis": "Todo app",
+        "description": "Todo app for tracking person todos"
     }
 }
