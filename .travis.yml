@@ -1,0 +1,18 @@
+language: node_js
+branches:
+  only:
+    - master
+    - develop
+node_js:
+  - 10
+sudo: required
+install:
+  - npm install
+script:
+  - npm run build:prod
+notifications:
+  email:
+    recipients:
+      - profschingalo@gmail.com
+    on_failure: always
+    on_success: always
