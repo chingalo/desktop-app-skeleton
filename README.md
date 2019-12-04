@@ -3,7 +3,6 @@
 [![Typeorm Logo](https://github.com/typeorm/typeorm/raw/master/resources/logo_big.png)](https://typeorm.io/#/)
 
 [![Travis Build Status][build-badge]][build]
-[![Travis Build Status][build-badge-dev]][build]
 [![Make a pull request][prs-badge]][prs]
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -72,8 +71,7 @@ You can do this! Just by importing your library in npm dependencies (not devDepe
 Maybe you want to execute the application in the browser with hot reload ? You can do it with `npm run ng:serve:web`.
 **Note that you can't use Electron or NodeJS native libraries in this case.** Please check `providers/electron.service.ts` to watch how conditional import of electron/Native libraries is done.
 
-[build-badge]: https://travis-ci.com/chingalo/todo-desktop-app.svg?token=WACwPiJygBvggCVVju7H&branch=master
-[build-badge-dev]: https://travis-ci.com/chingalo/todo-desktop-app.svg?token=WACwPiJygBvggCVVju7H&branch=develop
+[build-badge]: https://travis-ci.com/chingalo/desktop-app-skeleton.svg?token=WACwPiJygBvggCVVju7H&branch=master
 [build]: https://travis-ci.com/chingalo/todo-desktop-app
 [prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs]: http://makeapullrequest.com
