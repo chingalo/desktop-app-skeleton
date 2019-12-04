@@ -73,4 +73,5 @@ tmp
 out-tsc
 app-builds/
 main.js
+app-menu.js
 .editorconfig
